@@ -18,7 +18,7 @@ transformers_5=true`, `gpu_arch 12.1a`).
 ## Build
 
 ```bash
-git clone https://github.com/azampatti/vllm-hybrid-int4-fp8-patches.git && cd <repo>
+git clone https://github.com/azampatti/vllm-hybrid-int4-fp8-patches.git && cd vllm-hybrid-int4-fp8-patches
 ./hybridpatch.sh <your-base-image-tag>          # -> <base-repo>-hybrid:latest
 ./hybridpatch.sh <your-base-image-tag> -t my-vllm:v1
 ```
